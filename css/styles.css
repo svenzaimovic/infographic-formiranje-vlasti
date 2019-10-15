@@ -311,3 +311,14 @@ li {
 .collapse-wrapper {
     margin-bottom: 24px;
 }
+
+@media (max-width: 391px) {
+    .dropdown-toggle {
+        font-size: 12px !important;
+    }
+
+    .dropdown-toggle span {
+        height: 58px !important;
+        line-height: 56px !important;
+    }
+}
